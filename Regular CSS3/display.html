@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            /* esconde o elemento H1 mas nao exclui o espaco dele na tela */
+            visibility: hidden;
+        }
+
+        .firstP {
+            /* exclui o elemento da tela e retira o espaco dele */
+            display: none;
+        }
+
+        strong {
+            /*faz o elemento tomara a linha toda que ele esta*/
+            display: block;
+            height: 100px;
+            width: 50px;
+            background-color: rosybrown;
+        }
+
+        ul li {
+            /*tira os elementos do block colocando eles um do lado do outro mas nao pode por height ou width */
+            display: inline;
+            background-color: aqua;
+        }
+
+        ol li{
+            /*inline-block junta a melhor parte dos dois elementos quando eles ficam alinhados e se pode usar width e height*/
+            background-color: chartreuse;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>This is a Heading</h1>
+    <p class="firstP">This is a paragraph.</p>
+    <p>This is <strong>conteudo</strong> another paragraph.</p>
+
+    <ul>
+        <li>lucas</li>
+        <li>lisa</li>
+        <li>maria</li>
+    </ul>
+
+    <ol>
+        <li>maca</li>
+        <li>quarda</li>
+        <li>mae</li>
+    </ol>
+
+</body>
+
+</html>
