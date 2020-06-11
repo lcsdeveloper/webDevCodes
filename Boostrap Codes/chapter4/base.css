@@ -1,0 +1,11 @@
+header {
+  background-color: #f8f8f8;
+}
+
+header a,
+header ul{
+  padding: 1.4rem 0;
+  color: #777;
+  font-weight: bold;
+  margin: 0 0.6rem;
+} 
